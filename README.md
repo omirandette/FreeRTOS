@@ -1,3 +1,12 @@
-avr32-gcc: https://github.com/denravonska/avr32-toolchain
+*Goal*
 
-main: https://github.com/omirandette/mgl849/blob/master/lab2/src/ASF/thirdparty/freertos/demo/avr32_uc3_example/main.c
+Toolchain for building FreeRTOS on a mac for a EVK1100 board
+
+*Requirements*
+
+avr32-gcc: https://github.com/denravonska/avr32-toolchain
+dfu-programmer: https://github.com/dfu-programmer/dfu-programmer
+
+*Build*
+
+./script.sh
